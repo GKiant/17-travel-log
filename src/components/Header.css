@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  height: 55px;
+  background-color: #f55a5a;
+}
+
+.header--title {
+  padding: 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: white;
+}

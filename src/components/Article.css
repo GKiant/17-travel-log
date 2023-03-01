@@ -1,0 +1,59 @@
+.article--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.article--image {
+  width: 125px;
+  height: 168px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.article--data {
+  color: #2b283a;
+}
+
+.article--geolocation_container {
+  display: flex;
+  align-items: center;
+  font-size: 0.625rem;
+}
+
+.article--geolocation_icon {
+  margin-right: 4px;
+}
+
+.article--country {
+  margin-right: 12px;
+}
+
+.article--geolocation_link {
+  color: #918e9b;
+}
+
+.article--title {
+  margin: 0 0 7px 0;
+  font-size: 1.56rem;
+  font-weight: 700;
+}
+
+.article--date {
+  margin-bottom: 9px;
+  font-weight: 700;
+  font-size: 0.74rem;
+}
+
+.article--description {
+  max-width: 326px;
+  font-size: 0.64rem;
+  line-height: 150%;
+}
+
+hr {
+  margin: 18px 0;
+  border: 1px solid #f5f5f5;
+}
