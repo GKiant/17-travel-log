@@ -5,8 +5,8 @@ import articleData from "./data.js";
 
 function App() {
   const post = articleData.map((item, i) => {
-    const isEnd = articleData[i + 1];
-    return <Article key={item.id} isEnd={isEnd} {...item} />;
+    const isntEnd = articleData[i + 1];
+    return <Article key={item.id} isntEnd={isntEnd} {...item} />;
   });
   return (
     <div className="container">

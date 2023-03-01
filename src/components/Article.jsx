@@ -10,7 +10,7 @@ const Article = ({
   endDate,
   description,
   imageUrl,
-  isEnd,
+  isntEnd,
 }) => {
   const formatedCountryText = location.toUpperCase().split("").join(" ");
 
@@ -46,7 +46,7 @@ const Article = ({
           <p className="article--description">{description}</p>
         </div>
       </div>
-      {isEnd && <hr />}
+      {isntEnd && <hr />}
     </>
   );
 };
